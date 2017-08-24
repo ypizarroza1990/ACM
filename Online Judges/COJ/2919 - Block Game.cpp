@@ -65,13 +65,9 @@ int solve(){
                     }
                 }
             }
-/*
-            for(int i=0;i<6;i++ ,printf("\n"))
-                for(int j=0;j<6;j++) printf("%2d ",MAT[i][j]);
-            cout << endl;
-*/
+
             for(int i=0;i<n;i++)
-                if (tipo[i]){ //----
+                if (tipo[i]){ 
                     //izq
                     int x = kaka.arr[i];
                     int c = x - 1;
@@ -188,4 +184,4 @@ int main(){
 
     return 0;
 }
-
+ 
